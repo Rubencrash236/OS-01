@@ -47,7 +47,7 @@ echo -n "Action to make p(print to screen) or a(append to a file): "
 read action 
 
 if [ "$action" = "a" ]; then
-    ls >> $appendFiles
+    cat $path >> $appendFiles
 elif [ "$action" = "p" ]; then
-    ls
+    cat $path
 fi
