@@ -5,7 +5,7 @@
 #           
 #         Then it gives liberty to navigate to any directory and list all the files and folders.
 #         If the entry of action is p it prints the ls output to the screen else if the entry for action
-#         is a it appends the ls output to a text file in the directory that the script is executed
+#         is a it appends the cat output to a text file in the directory that the script is executed
 
 
 set -e #tells the script to terminate if any command exited with a nonzero exit status
