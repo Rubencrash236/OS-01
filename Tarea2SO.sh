@@ -41,7 +41,6 @@ echo "\n"
 echo -n "Directory path: "
 read path
 
-cd $path
 
 echo -n "Action to make p(print to screen) or a(append to a file): "
 read action 
