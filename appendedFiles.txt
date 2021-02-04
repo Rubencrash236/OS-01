@@ -1,4 +1,0 @@
-Homework tester 
-this should append to the file in the directory
-Homework tester 
-this should append to the file in the directory
