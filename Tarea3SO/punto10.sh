@@ -4,4 +4,4 @@
 #          This script checks for a certain string in the names of the list in 
 #                in notas.txt
 cd Mail/Local/SO 
-grep -i "zap" 'notas.txt'
+grep -i "n" 'notas.txt'
