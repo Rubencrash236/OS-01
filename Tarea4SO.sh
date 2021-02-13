@@ -8,7 +8,7 @@ method=$1
 path=$2
 
 if [ "$method" = "-z" ]; 
-    then zip $path $path
+    then zip -r $path $path
     elif [ "$method" = "-t" ];
     then tar -cf "${path}.tar" $path
     elif [ "$method" = "-g" ];
