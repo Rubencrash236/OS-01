@@ -33,7 +33,7 @@ int main() {
         gets(input);
         //getline(&input,&size,stdin);
         if((strcmp(input,"end")) == 0){
-            kill(-1*parent,SIGKILL); //mata todos los procesos padre e hijos pero dura bastante para hacerlo 
+            //kill(-1*parent,SIGKILL); //mata todos los procesos padre e hijos 
             break;
         }else{
             if((strcmp(input,"!")) != 0){
